@@ -1,0 +1,7 @@
+#!/bin/bash
+javac *.java
+for x in {A..Z}
+do
+ echo "$x"
+ java DisplayMessage ${x}
+done
